@@ -1,17 +1,13 @@
 # click-stream-mining
 This project is my homework assignment for CSE 537 Artificial Intelligence, taught by Prof. I V Ramakrishnan
 Problem statement:
-Clickstream Mining with Decision Trees [50 points]
+Clickstream Mining with Decision Trees
 
 The project is based on a task posed in KDD Cup 2000. It involves mining click-stream data collected from Gazelle.com, which sells legware products. Your task is to determine: Given a set of page views, will the visitor view another page on the site or will he leave?
 
 The data set given to you is in a different form than the original. In particular it has discretized numerical values obtained by partitioning them into 5 intervals of equal frequency. This way, we get a data set where for each feature, we have a finite set of values. These values are mapped to integers, so that the data is easier for you to handle
 
-Dataset
-
-The data set can be downloaded from here.
-
-You have 5 files in .csv format
+Dataset: 5 files in .csv format
 
 trainfeat.csv: Contains 40000 examples, each with 274 features in the form of a 40000 x 274 matrix.
 trainlabs.csv: Contains the labels (class) for each training example (did the visitor view another page?)
